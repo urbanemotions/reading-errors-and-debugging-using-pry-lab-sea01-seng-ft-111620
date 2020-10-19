@@ -7,7 +7,7 @@ def snake_it_up(string)
 #    10 * "s" + string
 #    10.times do print "s" end + string
 #    "ssssssssss" + string  
-#    string.ljust(10, "s")
+    string.ljust(10, "s")
   else
     string
   end
