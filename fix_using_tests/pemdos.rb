@@ -5,9 +5,9 @@ require 'pry'
 def snake_it_up(string)
   if string[0] == "s"
 #    10 * "s" + string
-#     10.times do print "s" end + string
+#    10.times do print "s" end + string
 #    "ssssssssss" + string  
-     string.rjust(11, "s")
+#    string.ljust(10, "s")
   else
     string
   end
