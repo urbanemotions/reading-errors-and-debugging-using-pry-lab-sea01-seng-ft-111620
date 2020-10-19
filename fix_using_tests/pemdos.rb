@@ -6,10 +6,10 @@ def snake_it_up(string)
   if string[0] == "s"
     binding.pry
 #    10 * "s" + string
-     10.times do "s" end + string 
+#     10.times do "s" end + string 
 #    10.times do print "s" end + string
 #    "ssssssssss" + string  
-#    string.rjust(10, "s")
+    string.rjust(19, "s")
   else
     string
   end
